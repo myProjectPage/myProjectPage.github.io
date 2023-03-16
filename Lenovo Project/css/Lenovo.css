@@ -1,0 +1,1145 @@
+body {
+    margin: 0;
+}
+
+.box-all {
+    margin: 0 auto;
+    background-color: rgb(249, 249, 249);
+}
+
+.box-one {
+    background-color: rgb(65, 68, 76);
+}
+
+.box {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.one {
+    background-color: rgb(65, 68, 76);
+    color: rgb(181, 181, 181);
+    height: 40px;
+}
+
+.fl {
+    float: left;
+}
+
+.a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.c:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fl>span {
+    line-height: 40px;
+    text-align: center;
+    margin-right: 22px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+}
+
+/* 下载APP */
+.download:hover {
+    color: white;
+}
+
+.download {
+    position: relative;
+}
+
+.download:hover .xiazai {
+    display: block;
+}
+
+/* 隐藏 */
+.xiazai {
+    width: 348px;
+    height: 188px;
+    position: absolute;
+    top: 42px;
+    left: -63px;
+    display: none;
+    z-index: 5;
+}
+
+.fr {
+    float: right;
+}
+
+.shop {
+    line-height: 40px;
+    text-align: center;
+    margin-right: 22px;
+    margin-left: 7px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    position: relative;
+}
+
+.sell:hover img {
+    transform: rotate(-180deg);
+}
+
+.up {
+    width: 11px;
+    height: 8px;
+    margin: 18px 0 0 2px;
+}
+
+.sell:hover .shop-box {
+    display: block;
+}
+
+.shop-box {
+    z-index: 5;
+    width: 118px;
+    height: 120px;
+    background-color: rgb(65, 68, 76);
+    position: absolute;
+    top: 40px;
+    left: -46px;
+    display: none;
+}
+
+.user {
+    position: relative;
+}
+
+.user:hover .user-box {
+    display: block;
+}
+
+.b:hover {
+    cursor: pointer;
+}
+
+.name-Lenovo {
+    margin-left: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 微软雅黑;
+}
+
+.user-box {
+    z-index: 5;
+    width: 410px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: -222px;
+    display: none;
+}
+
+/* 用户盒子内容 */
+.top {
+    height: 180px;
+    background-image: linear-gradient(to bottom, rgba(209, 243, 237, 0.3), rgba(220, 238, 235, .9));
+}
+
+.line {
+    height: 70px;
+    padding: 20px 40px 0 40px;
+    overflow: hidden;
+}
+
+.touxiang {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.TX-right {
+    height: 60px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+.name-Lenovo01 {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 0);
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+
+.white-VIP {
+    width: 65px;
+    height: 13px;
+}
+
+.line-right {
+    margin-top: 14px;
+}
+
+.line-right>a {
+    width: 60px;
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+}
+
+.line-under {
+    width: 360px;
+    margin: 10px 20px 5px 20px;
+    border-bottom: 1px solid rgb(218, 237, 233);
+}
+
+.line02 {
+    padding: 0 60px 0 60px;
+    text-align: center;
+}
+
+.example {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+}
+
+h3 {
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+.txt {
+    width: 50px;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(133, 139, 151);
+}
+
+.box-been {
+    height: 50px;
+    width: 50px;
+}
+
+.bottom {
+    padding: 0 23px 0 28px;
+    text-align: center;
+    height: 95px;
+}
+
+.bottom-ex {
+    height: 77px;
+    width: 80px;
+    margin: 17px 8px 0 0;
+}
+
+.order-01 {
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.txt-02 {
+    width: 60px;
+    margin-left: -4px;
+    line-height: 34px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(133, 139, 151);
+}
+
+.img-box {
+    width: 20px;
+    height: 20px;
+    margin: 9px 0 0;
+}
+
+.auto-img {
+    width: 100%;
+    display: block;
+}
+
+.gouwuche {
+    height: 20px;
+    width: 20px;
+    margin: 12px 0 8px 20px;
+}
+
+.number-box {
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+    font-size: 13px;
+    background-color: red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.shouji {
+    width: 20px;
+    height: 20px;
+    margin: 8px 0 0 0px;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone:hover .new {
+    display: block;
+}
+
+.phone:hover .trangle {
+    display: block;
+}
+
+.trangle {
+    z-index: 6;
+    display: none;
+    position: absolute;
+    top: 21px;
+    left: -6px;
+    border-bottom: 12px solid white;
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+
+.phone:hover .trangle-02 {
+    display: block;
+}
+
+.trangle-02 {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    top: 18px;
+    left: -6px;
+    border-bottom: 12px solid rgb(196, 196, 196);
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+
+.new {
+    z-index: 4;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid rgb(196, 196, 196);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: absolute;
+    top: 41px;
+    left: -157px;
+    display: none;
+}
+
+.ewm {
+    width: 60px;
+}
+
+.ewm-txt {
+    margin-left: 10px;
+    font-size: 12px;
+    width: 83px;
+}
+
+.ewm-txt>p {
+    margin: 5px 0;
+    color: black;
+}
+
+
+/* 第二行 */
+.box-two {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.box-02 {
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.two {
+    color: rgb(0, 0, 0);
+    height: 40px;
+    padding: 10px 0;
+}
+
+.left-first {
+    width: 190px;
+    margin-right: 40px;
+}
+
+.logo-txt {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 48px 0 0;
+}
+
+.seek-box {
+    background-color: rgb(244, 244, 244);
+    height: 38px;
+}
+
+.seek-logo {
+    width: 22px;
+    height: 22px;
+    margin: 8px 8px 0 10px;
+}
+
+.seek-logo:hover {
+    cursor: pointer;
+}
+
+.seek>input {
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 36px;
+    background-color: transparent;
+}
+
+/* 品牌故事一栏显示隐藏 */
+.story {
+    position: relative;
+}
+
+.story:hover .story-box {
+    display: block;
+}
+
+.story:hover .underline-001 {
+    display: block;
+}
+
+.underline-001 {
+    display: none;
+    height: 1px;
+    width: 64px;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.story:hover .underline-002 {
+    display: block;
+}
+
+.underline-002 {
+    display: none;
+    height: 1px;
+    width: 34px;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: -3px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.story:hover .underline-003 {
+    display: block;
+}
+
+.underline-003 {
+    display: none;
+    height: 1px;
+    width: 95px;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.story-box {
+    z-index: 1;
+    display: none;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: -44px;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #fff4f4;
+}
+
+.story-txt {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 仿宋;
+    color: rgb(80, 74, 74);
+    font-weight: bold;
+    margin: 11px;
+}
+
+.story:hover .story-box-02 {
+    display: block;
+}
+
+.story-box-02 {
+    z-index: 1;
+    display: none;
+    width: 116px;
+    position: absolute;
+    top: 40px;
+    left: -44px;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #fff4f4;
+}
+
+.c:hover {
+    color: rgb(231, 60, 30);
+    cursor: pointer;
+}
+
+
+/* 第三行 */
+.box-03 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(249, 249, 249);
+}
+
+.three {
+    margin: 0 auto;
+}
+
+.page-top {
+    overflow: hidden;
+    padding: 10px 0 0 0;
+    width: 1200px;
+    line-height: 13px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(128, 129, 128);
+}
+
+.right-jiantou {
+    height: 9px;
+    width: 8px;
+    margin: 0 10px;
+}
+
+.page-color:hover {
+    color: rgb(56, 105, 174);
+    cursor: pointer;
+}
+
+.page-underline {
+    margin: 12px 0;
+    height: 1px;
+    background-color: rgb(225, 224, 224);
+}
+
+.page-title {
+    font-size: 30px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.year-all {
+    overflow: hidden;
+}
+
+.year {
+    height: 60px;
+    width: 528px;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.year-left {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.year-select {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.year-01 {
+    font-size: 14px;
+    margin: 2px 15px 0 0;
+}
+
+.year-01:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.d {
+    color: red;
+}
+
+.r:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.year-02 {
+    margin-right: 14px;
+}
+
+.year-03 {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.ico-up {
+    margin-left: -4px;
+    color: rgba(189, 189, 189, .7)
+}
+
+.iconfont icon-arrowTop-fill {
+    margin: 0;
+}
+
+.line-shu {
+    margin-top: 13px;
+    height: 14px;
+    width: 1px;
+    background-color: rgba(189, 189, 189, .7);
+}
+
+.year-show {
+    color: red;
+}
+
+.page-right {
+    width: 370px;
+}
+
+.seek-002 {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    margin: 8px 10px 0 0;
+    height: 40px;
+    width: 356px;
+    background-color: rgb(244, 244, 244);
+}
+
+.seek-logo-02 {
+    width: 25px;
+    margin: 8px 10px 0 0;
+}
+
+.seek-logo-02:hover {
+    cursor: pointer;
+}
+
+.seek-box-02>input {
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    width: 311px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.page-right>p {
+    font-size: 14px;
+    color: rgb(184, 184, 184);
+    margin-right: 13px;
+}
+
+/* 第四行 */
+.content-img {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.four {
+    overflow: hidden;
+    width: 998px;
+    margin: 0 auto;
+}
+
+.picture-top:hover img {
+    transform: scale(1.1);
+}
+
+.picture-top img {
+    transition: transform .3s linear;
+}
+
+.picture {
+    background-color: #fff;
+    width: 232px;
+    height: 300px;
+    margin: 0 12px 33px 0;
+    border: 1px solid rgb(210, 210, 210);
+
+}
+
+.picture:hover {
+    box-shadow: 0 8px 16px 0 rgba(177, 177, 177, 0.2), 0 10px 32px 0 rgba(92, 91, 91, 0.3);
+}
+
+.picture-top {
+    overflow: hidden;
+    width: 232px;
+}
+
+.picture-title {
+    word-spacing: 3px;
+    width: 200px;
+    height: 85px;
+    font-size: 18px;
+    margin: 4px auto;
+}
+
+.picture-bottom {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.picture-end {
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+}
+
+.look-number {
+    margin: 0 3px;
+    font-size: 13px;
+    color: rgb(216, 216, 216);
+}
+
+.picture-img {
+    margin-top: 2px;
+    width: 18px;
+}
+
+.share {
+    margin-top: -5px;
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+}
+
+.ic:hover {
+    color: rgb(160, 3, 3);
+    cursor: pointer;
+}
+
+
+/* 图片底部 */
+.five {
+    height: 80px;
+}
+
+.five-content {
+    width: 680px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.example-01 {
+    margin: 0 5px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(255, 255, 255);
+}
+
+.example-01:hover {
+    color: #fff;
+    cursor: pointer;
+    border-color: rgb(245, 0, 63);
+    background-color: rgb(245, 0, 63);
+}
+
+.example-01:hover .ico-box-J {
+    color: #fff;
+}
+
+.left-icon-01 {
+    margin: 6px;
+}
+
+.icon-number {
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.five-right-txt {
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(134, 134, 134);
+    margin-right: 8px;
+}
+
+.choice-box {
+    width: 51px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    position: relative;
+}
+
+.choice {
+    color: rgb(134, 134, 134);
+    margin: 0px 0 0 10px;
+    width: 25px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.shangxia {
+    margin: 2px 0 0 0;
+    color: rgb(134, 134, 134);
+    width: 12px;
+    height: 20px;
+}
+
+.choice-box:hover .white-box {
+    display: block;
+}
+
+.white-box {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    top: 25px;
+    width: 51px;
+    height: 3px;
+    background-color: rgb(249, 249, 249);
+}
+
+.choice-menu {
+    z-index: 1;
+    position: absolute;
+    top: 26px;
+    left: -1px;
+    border: 1px solid rgb(205, 205, 205);
+    height: 80px;
+    width: 51px;
+    background-color: #fff;
+    display: none;
+}
+
+.choice-box:hover .choice-menu {
+    display: block;
+}
+
+.menu-01 {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    width: 100%;
+}
+
+.menu-01:hover {
+    cursor: pointer;
+    background-color: rgb(217, 217, 217);
+}
+
+/* 第四行 */
+.box-04 {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+}
+
+.six {
+    margin: 0 auto;
+    padding: 42PX 0;
+}
+
+.six-top {
+    width: 0 auto;
+    height: 274px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.line-top-02 {
+    overflow: hidden;
+}
+
+.Lenovo-001 {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.L-title {
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.L-title:hover {
+    cursor: pointer;
+}
+
+.relative {
+    font-size: 12px;
+    color: gray;
+    margin: 0 0 5px 0;
+}
+
+.relative:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.Lenovo-002 {
+    margin-right: 20px;
+}
+
+.l-left-01 {
+    overflow: hidden;
+}
+
+.left-txt {
+    margin-right: 60px;
+}
+
+.web {
+    margin: 0;
+}
+
+.page-underline-02 {
+    margin: 50px 0;
+    height: 1px;
+    background-color: rgb(185, 185, 185);
+}
+
+.six-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    height: 123px;
+}
+
+.tel-example {
+    margin: 20px 25px 0 0;
+}
+
+.tel-top {
+    line-height: 28px;
+    text-align: center;
+}
+
+.tel-left {
+    font-size: 13px;
+}
+
+.tel {
+    margin-left: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tel-bottom {
+    color: gray;
+    font-size: 13px;
+}
+
+.six-icon {
+    margin-top: 13px;
+    width: 256px;
+    /* overflow: hidden;  */
+}
+
+.right-icon {
+    width: 80px;
+    height: 40px;
+    margin: 22px 0px 0 0;
+    font-size: 14px;
+}
+
+.right-icon-box {
+    width: 165px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.baidu {
+    margin: 0px 4px 0 0;
+    width: 80px;
+    height: 28px;
+}
+
+.right-icon>.tt {
+    font-size: 18px;
+    margin: 0 6px;
+}
+
+.weibo-ico {
+    width: 81px;
+    height: 29px;
+    line-height: 29px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.weibo {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+}
+
+.box-end {
+    background-color: rgb(230, 230, 230);
+}
+
+.box-05 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(232, 232, 232);
+}
+
+.seven {
+    height: 62px;
+}
+
+.contry {
+    height: 30px;
+    width: 50px;
+    background: url(../images-02/baidu.png) no-repeat 0px -224px;
+}
+
+.Sleft-01 {
+    line-height: 30px;
+    text-align: center;
+}
+
+.Sleft-02 {
+    line-height: 25px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.contry-select {
+    margin: 0 0 0 15px;
+    background-color: rgb(237, 237, 237);
+}
+
+.contry-select>option {
+    border: none;
+    appearance: none;
+    outline: none;
+    width: 100px;
+    background-color: transparent;
+}
+
+.inp {
+    border: none;
+    height: 30px;
+    border-color: transparent;
+}
+
+.Sc {
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contry option:hover {
+    color: red;
+}
+
+.line-shu-02 {
+    margin: 10px;
+}
+
+.tell {
+    margin-top: 2px;
+}
+
+.end-right {
+    margin-top: 17px;
+}
+
+
+
+
+.zhuan:hover {
+    color: rgb(255, 106, 7);
+    cursor: pointer;
+}
+
+.yuanq:hover .zhuan-03 {
+    color: rgb(255, 106, 7);
+    cursor: pointer;
+}
+
+.right-icon-wx>.zhuan-01 {
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+.zhuan-01:hover {
+    color: rgb(7, 161, 59);
+    cursor: pointer;
+}
+
+.right-icon-wx {
+    position: relative;
+}
+
+.right-icon-wx:hover .WX {
+    display: block;
+}
+
+.WX {
+    display: none;
+    position: absolute;
+    top: -123px;
+    left: -7px;
+    width: 100px;
+    height: 110px;
+    padding: 2px;
+}
+
+.WX-ewm {
+    width: 100px;
+}
